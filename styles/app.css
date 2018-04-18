@@ -1,0 +1,55 @@
+/*Styles for dinosaur survey*/
+
+/*colors 
+teal #07d3c8
+cyan 006b84
+dark blue 323e60
+dark orange ff792e
+light orange ffb36e
+red dd5143
+off-white fcf3d9
+*/
+
+body{
+	/*background-color: #fcf3d9;*/
+	background-color: #fffcf3;
+	font-family: 'Roboto Slab', serif;
+	color: #323e60;
+	min-width: 410px;
+
+}
+
+.rating-li{
+	display: inline-block;
+	list-style: none;
+}
+
+.flex-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	/*justify-content: center;
+	margin: auto;*/
+}
+
+.personalInfo-box{
+	display: block;
+	border:20px;
+	border: 6px solid #323e60;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+.ratingWrapper{
+	justify-content: center;
+}
+
+.button-container{
+	display: block;
+	margin: 0px 10px 0px 10px;
+}
+
+.rate-star{
+	margin: 20px;
+}
+
+
