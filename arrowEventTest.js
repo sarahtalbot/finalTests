@@ -5,7 +5,7 @@ const nextArrow = bodymovin.loadAnimation({
 	renderer: 'svg',
 	loop: false,
 	autoplay: true,
-	path: 'js/json/data-navigationArrow-left.json',
+	path: './js/json/data-navigationArrow-left.json',
 })
 
 
@@ -14,7 +14,7 @@ const prevArrow = bodymovin.loadAnimation({
 	renderer: 'svg',
 	loop: false,
 	autoplay: true,
-	path: 'js/json/data-navigationArrow-right.json',
+	path: './js/json/data-navigationArrow-right.json',
 })
 
 
