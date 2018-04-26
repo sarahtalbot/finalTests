@@ -1,7 +1,7 @@
 
 
 const nextArrow = bodymovin.loadAnimation({
-	container: docucument.querySelector('.jq-nextArrow'),
+	container: document.querySelector('.jq-nextArrow'),
 	renderer: 'svg',
 	loop: false,
 	autoplay: true,
@@ -10,7 +10,7 @@ const nextArrow = bodymovin.loadAnimation({
 
 
 const prevArrow = bodymovin.loadAnimation({
-	container: docucument.querySelector('.jq-prevArrow'),
+	container: document.querySelector('.jq-prevArrow'),
 	renderer: 'svg',
 	loop: false,
 	autoplay: true,
